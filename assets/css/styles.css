@@ -3,47 +3,19 @@ body {
     font-family: Arial, sans-serif; 
 }
 
-ul { 
+/* Стили для страницы 1 - Самурайские Хоку */
+.page1 ul { 
     list-style-type: decimal; 
     padding: 20px; 
 }
 
-li { 
-    margin-bottom: 15px; 
+.page1 li { 
+    margin-bottom: 10px; 
     padding: 10px; 
     background-color: #fff; 
     border-left: 5px solid #333; 
 }
 
-/* Стили для навигации */
-header nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-header nav li {
-    margin-bottom: 10px;
-    padding: 0;
-    background-color: transparent;
-    border-left: none;
-}
-
-header nav a {
-    display: block;
-    padding: 10px 15px;
-    text-decoration: none;
-    color: #333;
-    background-color: #f5f5f5;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-header nav a:hover {
-    background-color: #e0e0e0;
-}
-
-/* Стили для страницы 1 - Самурайские Хоку */
 .page1 .haiku { 
     font-style: italic; 
     line-height: 1.5; 
@@ -54,8 +26,16 @@ header nav a:hover {
     background-color: #f0f0f0;
 }
 
-.page2 main li { 
-    margin-bottom: 20px; 
+.page2 ul { 
+    list-style-type: decimal; 
+    padding: 20px; 
+}
+
+.page2 li { 
+    margin-bottom: 10px; 
+    padding: 10px; 
+    background-color: #fff; 
+    border-left: 5px solid #333; 
 }
 
 .page2 .fable { 
@@ -75,12 +55,14 @@ header nav a:hover {
     color: #8b4513;
 }
 
-.page3 main ul { 
+.page3 ul { 
     list-style-type: square; 
+    padding: 20px; 
 }
 
-.page3 main li { 
-    margin-bottom: 15px; 
+.page3 li { 
+    margin-bottom: 10px; 
+    padding: 10px; 
     background-color: #fdf5e6; 
     border: 2px solid #daa520; 
 }
@@ -103,16 +85,16 @@ header nav a:hover {
     color: #2c3e50;
 }
 
-.page4 main ul { 
-    list-style-type: disc; 
+.page4 ul { 
+    list-style-type: decimal; 
+    padding: 20px; 
 }
 
-.page4 main li { 
-    margin-bottom: 18px; 
-    background-color: #ffffff; 
-    border: 1px solid #bdc3c7; 
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+.page4 li { 
+    margin-bottom: 10px; 
+    padding: 10px; 
+    background-color: #fff; 
+    border-left: 5px solid #333; 
 }
 
 .page4 .hymn { 

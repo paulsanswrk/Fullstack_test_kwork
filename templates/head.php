@@ -5,5 +5,6 @@
     <?php if (!isset($_GET['simple']) || $_GET['simple'] != '1'): ?>
     <link rel="stylesheet" href="/assets/css/styles.css"> <!-- Подключи свой CSS-файл -->
     <script src="/assets/js/axnikitaJS.js"></script>
+    <script src="/assets/js/spa-body-class.js"></script>
     <?php endif; ?>
 </head>

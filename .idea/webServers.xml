@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="76770eed-24b4-4e3c-92b9-7107c5069782" name="fullstack-test">
+        <fileTransfer rootFolder="/var/www/fullstack-test.chickenkiller.com" accessType="SFTP" host="3.110.147.110" port="22" sshConfigId="543e829f-dd4b-4d90-a523-952a07cd4580" sshConfig="ubuntu@3.110.147.110:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" isUseSudo="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
