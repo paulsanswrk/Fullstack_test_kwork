@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# Убираем расширение .php из URL
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# Перенаправляем с .php на URL без расширения
+RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
+RewriteRule ^ /%1? [NC,L,R=301]
+
+# Обрабатываем корневой URL
+RewriteRule ^$ page1.php [L]
