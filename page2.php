@@ -1,16 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
 <?php require_once("templates/head.php"); ?>
-<body>
+<body class="page2">
 <?php require_once("templates/header.php"); ?>
 <main>
-    <style>
-        body { font-family: Arial, sans-serif; background-color: #f0f0f0; }
-        ul { list-style-type: decimal; padding: 20px; }
-        li { margin-bottom: 20px; padding: 10px; background-color: #fff; border-left: 5px solid #333; }
-        .fable { font-style: italic; line-height: 1.6; color: #333; }
-        .moral { font-weight: bold; margin-top: 10px; }
-    </style>
     <h1>Старославянские Басни на Тему Фулстек Разработчика</h1>
     <ul>
         <li>

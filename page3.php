@@ -1,16 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
 <?php require_once("templates/head.php"); ?>
-<body>
+<body class="page3">
 <?php require_once("templates/header.php"); ?>
 <main>
-    <style>
-        body { font-family: Arial, sans-serif; background-color: #fffacd; color: #8b4513; }
-        ul { list-style-type: square; padding: 20px; }
-        li { margin-bottom: 15px; padding: 10px; background-color: #fdf5e6; border: 2px solid #daa520; }
-        .mantra { font-style: italic; line-height: 1.8; font-size: 1.1em; }
-        .translation { font-weight: bold; margin-top: 10px; color: #b8860b; }
-    </style>
     <h1>Египетские Мантры на Тему Фулстек Разработчика</h1>
     <p>Мантры сии, вдохновленные древними египетскими ритуалами, посвящены мудрости Ра и защитe богов, примененной к искусству фулстек разработки. Повторяй их для вдохновения и силы кода.</p>
     <ul>

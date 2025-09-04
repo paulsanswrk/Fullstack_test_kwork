@@ -1,15 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
 <?php require_once("templates/head.php"); ?>
-<body>
+<body class="page1">
 <?php require_once("templates/header.php"); ?>
 <main>
-    <style>
-        body { font-family: Arial, sans-serif; }
-        ul { list-style-type: decimal; padding: 20px; }
-        li { margin-bottom: 10px; padding: 10px; background-color: #fff; border-left: 5px solid #333; }
-        .haiku { font-style: italic; line-height: 1.5; }
-    </style>
     <h1>Самурайские Хоку на Тему Фулстек Разработчика</h1>
     <ul>
         <li class="haiku">

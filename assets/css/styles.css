@@ -1,0 +1,70 @@
+/* Общие стили для всех страниц */
+body { 
+    font-family: Arial, sans-serif; 
+}
+
+ul { 
+    list-style-type: decimal; 
+    padding: 20px; 
+}
+
+li { 
+    margin-bottom: 10px; 
+    padding: 10px; 
+    background-color: #fff; 
+    border-left: 5px solid #333; 
+}
+
+/* Стили для страницы 1 - Самурайские Хоку */
+.page1 .haiku { 
+    font-style: italic; 
+    line-height: 1.5; 
+}
+
+/* Стили для страницы 2 - Старославянские Басни */
+.page2 {
+    background-color: #f0f0f0;
+}
+
+.page2 li { 
+    margin-bottom: 20px; 
+}
+
+.page2 .fable { 
+    font-style: italic; 
+    line-height: 1.6; 
+    color: #333; 
+}
+
+.page2 .moral { 
+    font-weight: bold; 
+    margin-top: 10px; 
+}
+
+/* Стили для страницы 3 - Египетские Мантры */
+.page3 {
+    background-color: #fffacd; 
+    color: #8b4513;
+}
+
+.page3 ul { 
+    list-style-type: square; 
+}
+
+.page3 li { 
+    margin-bottom: 15px; 
+    background-color: #fdf5e6; 
+    border: 2px solid #daa520; 
+}
+
+.page3 .mantra { 
+    font-style: italic; 
+    line-height: 1.8; 
+    font-size: 1.1em; 
+}
+
+.page3 .translation { 
+    font-weight: bold; 
+    margin-top: 10px; 
+    color: #b8860b; 
+}
