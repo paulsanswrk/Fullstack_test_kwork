@@ -1,9 +1,9 @@
 <header>
     <nav>
         <ul>
-            <li><a href="/page1.php">Страница 1</a></li>
-            <li><a href="/page2.php">Страница 2</a></li>
-            <li><a href="/page3.php">Страница 3</a></li>
+            <li><a href="/page1.php">Самурайские Хоку на Тему Фулстек Разработчика</a></li>
+            <li><a href="/page2.php">Старославянские Басни на Тему Фулстек Разработчика</a></li>
+            <li><a href="/page3.php">Египетские Мантры на Тему Фулстек Разработчика</a></li>
         </ul>
     </nav>
 </header>
